@@ -1,6 +1,6 @@
 # Factory method
 
-*Información base tomada de: https://refactoring.guru/design-patterns/factory-method*
+*Información base tomada de: https://refactoring.guru/design-patterns/factory-method y de https://www.tutorialspoint.com/design_pattern/factory_pattern.htm*
 
 ## Problema
 
