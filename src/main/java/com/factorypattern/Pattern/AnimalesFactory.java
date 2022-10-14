@@ -6,7 +6,11 @@ import com.factorypattern.Model.Zorro;
 
 public class AnimalesFactory {
     
-    // Método para obtener el tipo de animal
+    /**
+     * {@code} Este código retorna un Perro, un Gato, un Zorro, o EXTENDERSE a cualquier otro clase nueva tipo Animales que se cree.
+     * @param clase
+     * @return
+     */
     public Animales getAnimal(String clase) {
 
         if(clase == null) return null;

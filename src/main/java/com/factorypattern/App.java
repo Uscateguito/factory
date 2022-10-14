@@ -14,13 +14,13 @@ public class App
         AnimalesFactory fabricaAnimal = new AnimalesFactory();
 
         // Obtener un objeto tipo perro y llamar a su método "Sonido"
-        Animales perrete = fabricaAnimal.getAnimal("Perro");
-        perrete.sonido();
+        Animales perro = fabricaAnimal.getAnimal("Perro");
+        perro.sonido();
 
-        Animales gatete = fabricaAnimal.getAnimal("Gato");
-        gatete.sonido();
+        Animales gato = fabricaAnimal.getAnimal("Gato");
+        gato.sonido();
 
-        Animales zorrete = fabricaAnimal.getAnimal("Zorro");
-        zorrete.sonido();
+        Animales zorro = fabricaAnimal.getAnimal("Zorro");
+        zorro.sonido();
     }
 }

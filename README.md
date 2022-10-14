@@ -30,7 +30,7 @@ Animales perrosky = fabricaAnimal.getAnimal("Perro");
 
 ___
 
-Aunque en principio parezca trivial, hacer un cambio como este, permite convertir la clase factory en una nueva subclase y cambiar la clase de animales con base a su método.
+Aunque en principio parezca trivial, hacer un cambio como este, permite generar con la clase factory en una nueva subclase y cambiar la manera en la que se ejecutan los métodos de la clase de animales con base a una subclase.
 
 Como factor limitante, las subclases retornarán diferentes tipos de productos sólo si estos productos tienen en común una clase base o una **interfaz**.
 
